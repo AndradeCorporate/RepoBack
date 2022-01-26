@@ -1,0 +1,11 @@
+{
+    "baseUrl" : "https://prestadores.hml.tempoassist.cloud/authorization/v1/", 
+    "video" : false,
+
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "custom-title"
+      }
+}

@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-24T16:53:46.401Z",
+    "end": "2022-01-24T16:53:49.522Z",
+    "duration": 3121,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f270be3f-8f85-4161-b55c-e2dc8818512e",
+      "title": "",
+      "fullFile": "cypress/integration/services/Authorization/Provider/tests/Login.js",
+      "file": "cypress/integration/services/Authorization/Provider/tests/Login.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5830d986-19fb-4f29-ba4f-f4e03949c860",
+          "title": "Autorization - Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realizar login",
+              "fullTitle": "Autorization - Login Realizar login",
+              "timedOut": null,
+              "duration": 3097,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "PostLogin.Login().should(response => {\n  expect(response.status).to.eq(200);\n});",
+              "err": {},
+              "uuid": "eb9ac8f1-79fc-4841-a722-7eeaa706116a",
+              "parentUUID": "5830d986-19fb-4f29-ba4f-f4e03949c860",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "eb9ac8f1-79fc-4841-a722-7eeaa706116a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3097,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "custom-title"
+      },
+      "version": "6.0.1"
+    }
+  }
+}
