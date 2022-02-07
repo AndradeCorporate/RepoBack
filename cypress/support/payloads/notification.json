@@ -1,0 +1,450 @@
+{
+    "NovoServico": {
+        "session": {
+            "user": {
+                "id": "615f2d5e6feffc0271b0ca85",
+                "name": "ROBERTO DE JESUS DORIA",
+                "providerId": "130503"
+            },
+            "vehicle": {
+                "id": "138588",
+                "plate": "AKO3620",
+                "code": "USSRAT16"
+            },
+            "tracking": null,
+            "device": {
+                "id": "ddddddd",
+                "firebase": "asdasdadasdadsda"
+            },
+            "expiredAt": "2022-10-15T15:14:21.044Z",
+            "createdAt": "2021-10-15T15:14:21.047Z"
+        },
+        "task": {
+            "state": {
+                "code": "open"
+            },
+            "client": {
+                "id": "13252",
+                "name": "ODETE N DE AGUIAR RODRIGUES",
+                "phone": "(11) 9999 9999",
+                "email": ""
+            },
+            "address": {
+                "street": "Av ABC",
+                "number": "123",
+                "district": "centro",
+                "zipCode": "12345-000",
+                "city": "São Paulo",
+                "state": "SP",
+                "complement": "AP. 201",
+                "reference": "",
+                "latitude": 29.147392870032,
+                "longitude": -51.147392870032
+            },
+            "service": {
+                "id": "61643",
+                "orderId": "15205",
+                "assistId": "58351639",
+                "assistNumber": "20.18.58351639",
+                "forecast": "120"
+            },
+            "vehicle": {
+                "id": "138588"
+            },
+            "provider": null,
+            "description": "Cliente informou xyz",
+            "event": "Quebra ou perda de chaves",
+            "segment": "resid",
+            "checklistType": "resid",
+            "type": "emergency",
+            "syncronizedAt": null,
+            "acceptedAt": null,
+            "cancelledAt": null,
+            "scheduledAt": null,
+            "_id": "61699ff9e4e1835c98e26da6",
+            "created_at": "2021-10-15T15:36:25.871Z",
+            "updated_at": "2021-10-15T15:36:25.871Z",
+            "__v": 0
+        }
+    },
+
+    "Local": {
+        "session":{
+               "id":"asdasdasdasda",
+           "user":{
+              "id":"4A289B1CD315F",
+              "name":"Maike Brito",
+              "providerId":"130503"
+           },
+           "vehicle":{
+              "id":"99501",
+              "plate":"DPW9501",
+              "code":"USSST32"
+           },
+           "tracking":{
+              "refreshRate":120
+           },
+           "expiredAt":"2022-01-01",
+           "deviceId":"dd96dec43fb81c97"
+        },
+        "provider":{
+           "id":"2",
+           "name":"Paula Eliza",
+           "username":"p.paula.eliza",
+           "company":"Chavelandia",
+           "devices":[
+              
+           ],
+           "tracking":null
+        },
+        "task":{
+               "id":"asdasdasdasda",
+           "scheduledAt":"2021-07-15T15:00:00-03:00",
+           "acceptedAt":"2021-07-15T10:23:15-03:00",
+           "syncronizedAt":null,
+           "cancelledAt":null,
+           "type":"schedule",
+           "checklistType":"resid",
+           "segment":"resid",
+               "type":"scheduled",
+           "event":"Quebra ou perda de chaves",
+           "description":"Cliente informou xyz",
+           "provider":{
+              "id":"123"
+           },
+           "vehicle":{
+              "id":"42110"
+           },
+           "service":{
+              "id":"61643",
+              "orderId":"15205",
+              "assistId":"58351639",
+              "assistNumber":"20.18.58351639",
+              "forecast":"120"
+           },
+           "address":{
+              "street":"Av ABC",
+              "number":"123",
+              "district":"centro",
+              "zipCode":"12345-000",
+              "city":"São Paulo",
+              "state":"SP",
+              "complement":"AP. 201",
+              "reference":"",
+              "latitude":29.147392870032,
+              "longitude":-51.147392870032
+           },
+           "client":{
+              "id":"13252",
+              "name":"Leonardo Mauricio",
+              "phone":"5584994302191",
+              "email":"maike.alame@tempoassist.com.br"
+           },
+           "states":[
+              {
+                 "code":"open",
+                 "createdAt":"2021-07-15T10:26:15-03:00"
+              }
+           ],
+           "createdAt":"2021-07-15T10:26:15-03:00"
+        }
+     },
+
+     "Deslocamento": {
+        "session":{
+           "id":"asb879652fae097c",
+           "user":{
+              "id":"4A289B1CD315F",
+              "name":"José Hudson",
+              "providerId":"130503"
+           },
+           "vehicle":{
+              "id":"99501",
+              "plate":"DPW9501",
+              "code":"USSST32"
+           },
+           "tracking":{
+              "refreshRate":120
+           },
+           "expiredAt":"2022-01-01",
+           "deviceId":"dd96dec43fb81c97"
+        },
+        "provider":{
+           "id":"asb879652fae097c",
+           "name":"Paula Eliza",
+           "username":"p.paula.eliza",
+           "company":"Chavelandia",
+           "devices":[
+              
+           ],
+           "tracking":null
+        },
+        "task":{
+           "id":"asb879652fae097c",
+           "scheduledAt":"2021-07-15T15:00:00-03:00",
+           "acceptedAt":"2021-07-15T10:23:15-03:00",
+           "syncronizedAt":null,
+           "cancelledAt":null,
+           "type":"scheduled",
+           "checklistType":"resid",
+           "segment":"resid",
+           "event":"Quebra ou perda de chaves",
+           "description":"Cliente informou xyz",
+           "provider":{
+              "id":"123"
+           },
+           "vehicle":{
+              "id":"42110"
+           },
+           "service":{
+              "id":"61643",
+              "orderId":"15205",
+              "assistId":"58351639",
+              "assistNumber":"20.18.58351639",
+              "forecast":"120"
+           },
+           "address":{
+              "street":"Av ABC",
+              "number":"123",
+              "district":"centro",
+              "zipCode":"12345-000",
+              "city":"São Paulo",
+              "state":"SP",
+              "complement":"AP. 201",
+              "reference":"",
+              "latitude":29.147392870032,
+              "longitude":-51.147392870032
+           },
+           "client":{
+              "id":"13252",
+              "name":"ODETE N DE AGUIAR RODRIGUES",
+              "phone":"5521971822760",
+              "email":"maike.alame@tempoassist.com.br"
+           },
+           "states":[
+              {
+                 "code":"open",
+                 "createdAt":"2021-07-15T10:26:15-03:00"
+              }
+           ],
+           "createdAt":"2021-07-15T10:26:15-03:00"
+        }
+     },
+
+     "ServicoFinalizado": {
+        "session":{
+           "id":"asb879652fae097c",
+           "user":{
+              "id":"4A289B1CD315F",
+              "name":"Custom Name",
+              "providerId":"130503"
+           },
+           "vehicle":{
+              "id":"99501",
+              "plate":"DPW9501",
+              "code":"USSST32"
+           },
+           "tracking":{
+              "refreshRate":120
+           },
+           "expiredAt":"2022-01-01",
+           "deviceId":"dd96dec43fb81c97"
+        },
+        "provider":{
+           "id":"asb879652fae097c",
+               "username":"adsadasdadsad",
+           "user":{
+              "id":"4A289B1CD315F",
+              "name":"Custom Name",
+              "providerId":"130503"
+           },
+           "vehicle":{
+              "id":"99501",
+              "plate":"DPW9501",
+              "code":"USSST32"
+           },
+           "tracking":{
+                      "date": "2021-07-15T15:00:00-03:00",
+                     "latitude": 53.65643564353,
+                     "longitude": -43.213123123123,
+              "refreshRate":120
+           },
+           "expiredAt":"2022-01-01",
+           "deviceId":"dd96dec43fb81c97"
+        },
+        "task":{
+           "id":"asb879652fae097c",
+           "scheduledAt":"2021-07-15T15:00:00-03:00",
+           "acceptedAt":"2021-07-15T10:23:15-03:00",
+           "syncronizedAt":null,
+           "cancelledAt":null,
+           "type":"scheduled",
+           "checklistType":"resid",
+           "segment":"resid",
+           "event":"Quebra ou perda de chaves",
+           "description":"Cliente informou xyz",
+           "provider":null,
+           "vehicle":{
+              "id":"42110"
+           },
+           "service":{
+              "id":"61643",
+              "orderId":"15205",
+              "assistId":"58351639",
+              "assistNumber":"20.18.58351639",
+              "forecast":"120"
+           },
+           "address":{
+              "street":"Av ABC",
+              "number":"123",
+              "district":"centro",
+              "zipCode":"12345-000",
+              "city":"São Paulo",
+              "state":"SP",
+              "complement":"AP. 201",
+              "reference":"",
+                     "latitude": 53.65643564353,
+                     "longitude": -43.213123123123
+           },
+           "client":{
+              "id":"13252",
+              "name":"Leonardo Mauricio",
+              "phone":"5584994302191",
+              "email":"leomauricio7@gmail.com"
+           },
+           "states":[
+              {
+                 "code":"open",
+                 "createdAt":"2021-07-15T10:26:15-03:00"
+              }
+           ],
+           "createdAt":"2021-07-15T10:26:15-03:00"
+        },
+        "checklistInitial":{
+           "id":"785aab892613f9d0e89",
+           "answeredAt":"2021-07-27T09:30:00-03:00",
+           "type":"resid_arrived",
+           "taskId":"a32ef4b892613f9d0e1f",
+           "answers":[
+              {
+                 "questionId":"f021c3da4f892613f9d0e23",
+                 "title":"Local possui avarias ?",
+                 "value":"true",
+                 "metaType":"bool",
+                 "key":"has_incident_arrived"
+              }
+           ],
+           "files":[
+              {
+                 "path":"/checklist/resid_arrived/12ab76ef82ce8af81a0.jpg",
+                 "url":"https://www.tempoassist.com.br/resources/logo/logo_tempo_3.png"
+              }
+           ],
+           "createdAt":"2021-07-27T09:30:00-03:00"
+        },
+        "checklistFinal":{
+           "id":"785aab892613f9d0e89",
+           "answeredAt":"2021-07-27T09:30:00-03:00",
+           "type":"resid_finished",
+           "taskId":"a32ef4b892613f9d0e1f",
+           "answers":[
+              {
+                 "questionId":"f021c3da4f892613f9d0e23",
+                 "title":"Local possui avarias após execução?",
+                 "value":"false",
+                 "metaType":"bool",
+                 "key":"has_incident_finished"
+              },
+              {
+                 "questionId":"e21a4fda4f892613f9d0e23",
+                 "title":"Descrição",
+                 "value":"Lorem ipsum dollor sit ammet",
+                 "metaType":"text",
+                 "key":"description_finished"
+              }
+           ],
+           "files":[
+              {
+                 "path":"/checklist/resid_arrived/12ab76ef8222ce8af81a0.jpg",
+                 "url":"https://www.tempoassist.com.br/resources/logo/logo_tempo_3.png"
+              },
+              {
+                 "path":"/checklist/resid_arrived/12ab76ef82ce8af81a0.jpg",
+                 "url":"https://www.tempoassist.com.br/resources/logo/logo_tempo_3.png"
+              }
+           ],
+           "createdAt":"2021-07-27T09:30:00-03:00"
+        }
+     },
+
+     "Cancelado":{
+        "session":{
+           "id":"61699acd2a629156279eb456",
+           "user":{
+              "id":"615f2d5e6feffc0271b0ca85",
+              "name":"ROBERTO DE JESUS DORIA",
+              "providerId":"130503"
+           },
+           "vehicle":{
+              "id":"138588",
+              "plate":"AKO3620",
+              "code":"USSRAT16"
+           },
+           "tracking":null,
+           "device":{
+              "id":null,
+              "firebase":null
+           },
+           "expiredAt":"2022-10-15T15:14:21.044Z",
+           "createdAt":"2021-10-15T15:14:21.047Z"
+        },
+        "task":{
+           "state":{
+              "code":"open"
+           },
+           "client":{
+              "id":"13252",
+              "name":"ODETE N DE AGUIAR RODRIGUES",
+              "phone":"(11) 9999 9999",
+              "email":""
+           },
+           "address":{
+              "street":"Av ZXC",
+              "number":"123",
+              "district":"centro",
+              "zipCode":"12345-000",
+              "city":"São Paulo",
+              "state":"SP",
+              "complement":"AP. 201",
+              "reference":"",
+              "latitude":29.147392870032,
+              "longitude":-51.147392870032
+           },
+           "service":{
+              "id":"61643",
+              "orderId":"15205",
+              "assistId":"58351639",
+              "assistNumber":"20.18.58351639",
+              "forecast":"120"
+           },
+           "vehicle":{
+              "id":"138588"
+           },
+           "provider":null,
+           "description":"Cliente informou xyz",
+           "event":"Quebra ou perda de chaves",
+           "segment":"resid",
+           "checklistType":"resid",
+           "type":"emergency",
+           "syncronizedAt":null,
+           "acceptedAt":null,
+           "cancelledAt":"2021-10-20T16:43:43.931Z",
+           "scheduledAt":null,
+           "_id":"61701d6566cc1e37b61646d3",
+           "created_at":"2021-10-20T13:45:09.058Z",
+           "updated_at":"2021-10-20T16:45:36.607Z",
+           "__v":0
+        }
+     }
+
+}

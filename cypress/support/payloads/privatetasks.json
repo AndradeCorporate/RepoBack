@@ -1,0 +1,44 @@
+
+{
+    "CreateServico":{
+	"scheduledAt": "2021-11-30 16:00:00.0",
+	"acceptedAt": "2021-11-18 17:39:14.0",
+	"type": "scheduled",
+	"checklistType": "resid",
+	"segment": "resid",
+	"event": "PROBLEMA EMERGENCIAL CHAVEIRO",
+	"description": "RESIDÊNCIA",
+	"vehicle": {
+		"id": "138612"
+	},
+	"service": {
+		"id": "135",
+		"orderId": "74610666",
+		"assistId": "59291397",
+		"assistNumber": "12",
+		"forecast": "0"
+	},
+	"address": {
+		"street": "BARLAVENTO",
+		"number": "500",
+		"district": "SP - SAO PAULO - VILA DIVINA PASTORA",
+		"zipCode": "03265010",
+		"city": "SP - SAO PAULO",
+		"state": "SP",
+		"complement": "",
+		"reference": "",
+		"latitude": -23.59498,
+		"longitude": -46.54148
+	},
+	"client": {
+		"id": "447346743",
+		"name": "ODETE N DE AGUIAR RODRIGUES",
+		"phone": "19 999999999",
+		"email": "tempoassist@tempoassist.org"
+	},
+
+    "Cancelar":{
+        "cancelledAt": "2016-11-01T19:09:59.511Z"
+    }
+}
+}

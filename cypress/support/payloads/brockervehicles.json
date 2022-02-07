@@ -1,0 +1,17 @@
+{   
+    "Associar":{
+    "deviceId": "MS v3 ERP Prestadores",
+    "vehicleId": "146018",
+    "providerId": "130503",
+    "plate": "GUZ4009",
+    "vehicleCode": "USSRAT48"
+    },
+
+    "Desassociar":{
+        "deviceId": "MS v3 ERP Prestadores",
+        "vehicleId": "146018",
+        "providerId": "130503",
+        "plate": "GUZ4009",
+        "vehicleCode": "USSRAT48"
+    }
+}

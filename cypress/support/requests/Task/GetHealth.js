@@ -1,17 +1,14 @@
 ///<reference types= "cypress"/>
 
 
-const user = require('../payloads/users.json')
-function Login(){
+function Health(){
     return cy.api({
-        method: 'POST' ,
-        url: 'session',
+        method: 'GET' ,
+        url: 'https://prestadores.hml.tempoassist.cloud/task/health',
         failOnStatusCode: false,
         headers: {
             'Content-Type': 'application/json'
-        }, 
-
-        body: user
+        },
     })
 }
-export {Login};
+export {Health};

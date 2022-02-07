@@ -1,0 +1,19 @@
+{
+    "Patch":{
+       "vehicle": null
+    },
+
+    "Put":{
+        "user": { 
+            "id": "4A289B1CD315F", 
+            "name": "Custom Name", 
+            "providerId": "42110" 
+        }, 
+        "vehicle": { 
+            "id": "99501", 
+            "plate": "DPW9501", 
+            "code": "USSST32" 
+        }  
+    }
+    
+}

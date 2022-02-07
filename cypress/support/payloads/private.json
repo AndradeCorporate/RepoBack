@@ -1,0 +1,40 @@
+{
+    "Task":{
+	"type": "emergency",
+	"checklistType": "auto",
+	"scheduledAt":"2022-01-03T13:20:06.936Z",
+	"segment": "resid",
+	"event": "Serviço para 138612",
+	"description": "138612",
+	"vehicle": {
+		"id": "138612"
+	},
+	"service": {
+		"id": "61643",
+		"orderId": "15205",
+		"assistId": "58351639",
+		"assistNumber": "20.18.58351639",
+		"forecast": "120"
+	},
+	"address": {
+		"street": "Av ZXC",
+		"number": "123",
+		"district": "centro",
+		"zipCode": "12345-000",
+		"city": "São Paulo",
+		"state": "SP",
+		"complement": "AP. 201",
+		"reference": "",
+		"latitude": 29.147392870032,
+		"longitude": -51.147392870032
+	},
+	"client": {
+		"id": "13252",
+		"name": "ODETE N DE AGUIAR RODRIGUES",
+		"phone": "(11) 9999 9999",
+		"email": "nilopaiva@id.uff.br"
+	}
+}
+
+
+}

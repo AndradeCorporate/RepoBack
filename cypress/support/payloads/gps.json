@@ -1,0 +1,21 @@
+{   
+    "GPS": {
+      "date": "2021-07-18T12:00:00-03:00", 
+      "latitude": -0, 
+      "longitude": -1001
+    },
+    
+
+
+    "Sync": {
+        "accuracy": 0,
+        "altitude": 0,
+        "altitudeAccuracy": 0,
+        "speed": 0,
+        "direction": 0,
+        "date": "2021-07-18T12:00:00-03:00",
+        "latitude": -111,
+        "longitude": -222  
+    }
+
+} 
